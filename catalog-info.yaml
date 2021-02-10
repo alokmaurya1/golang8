@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang8
+  description: golang8
+  annotations: 
+    github.com/project-slug: alokmaurya1/golang8
+    backstage.io/source-ref: "https://github.com/alokmaurya1/golang8"
+    backstage.io/techdocs-ref: url:https://github.com/alokmaurya1/golang8
+    backstage.io/github-actions-id: https://github.com/alokmaurya1/golang8
+spec:
+  type: service
+  lifecycle: experimental
+  owner: alokmaurya1
